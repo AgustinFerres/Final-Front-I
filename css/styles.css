@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+/* --------------------- GENERAL ---------------------*/
+* {
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    letter-spacing: -1px;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.non-mobile {
+    display: none;
+}
+div.container {
+    background-image: url(../img/bg-tablet-pattern.svg);
+    background-position: 70px -50px;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    max-width: 480px;
+    text-align: center;
+    width: 100vw;
+}
+
+
+/* --------------------- HEADER --------------------- */
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+/* --------------------- MAIN --------------------- */
+/*     --------------- SECTION 1 ---------------   */
+
+
+
+
+main article.graphics img {
+    max-width: 520px;
+    min-width: 220px;
+    width: 90vw;
+}
+main article.description {
+    background-image: url(../img/bg-tablet-pattern.svg);
+    background-position: 250px 0px;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 600px;
+}
+main article.description h2 {
+    color: rgb(35, 44, 81);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+main p {
+    color: rgba(143, 148, 167,0.8);
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+main a.get-started {
+    background-color: rgb(242, 95, 58);
+    border-radius: 30px;
+    box-shadow: 0px 10px 10px rgba(242, 95, 58, 0.5);
+    color: white;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+/* --------------------- MAIN --------------------- */
+/*     --------------- SECTION 2 ---------------   */
+
+
+main section.difference {
+    height: 1200px;
+}
+main section.difference ul {
+    list-style: none;
+}
+main section.difference h3 {
+    color: rgb(35, 44, 81);
+    font-size: 2rem;
+    font-weight: 700;
+}
+main section.difference ul li p {
+    line-height: 30px;
+    margin-bottom: 70px;
+    margin: 20px;
+    text-align: left;
+}
+
+main section.difference ul li p.list-title {
+    background-color: rgb(255, 239, 234);
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    color: rgb(35, 44, 81);
+    font-size: 1.15rem;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 5px 20px 5px 0px;
+}
+main section.difference ul li p.first::before {
+    background-color: rgb(242, 95, 58);
+    border-radius: 30px;
+    color: white;
+    content: "01";
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+}
+main section.difference ul li p.second::before {
+    background-color: rgb(242, 95, 58);
+    border-radius: 30px;
+    color: white;
+    content: "02";
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+}
+main section.difference ul li p.third::before {
+    background-color: rgb(242, 95, 58);
+    border-radius: 30px;
+    color: white;
+    content: "03";
+    margin-left: 10px;
+    margin-right: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+}
+
+
+/* --------------------- MAIN --------------------- */
+/*     --------------- SECTION 3 ---------------   */
+
+
+main section.comments {
+    height: 600px;
+}
+main section.comments h3 {
+    color: rgb(35, 44, 81);
+    font-size: 2rem;
+    margin-bottom: 75px;
+}
+main section.comments img {
+    margin-bottom: 40px;
+    max-width: 100px;
+    width: 25vw;
+}
+main section.comments h4 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+main section.comments input[type = "radio"] {
+    appearance: none;
+    border-radius: 50%;
+    border:  1px solid rgb(242, 95, 58);
+    height: 15px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    text-decoration: none;
+    width: 15px;
+}
+main section.comments input[type = "radio"]:checked {
+    background-color: rgb(242, 95, 58);
+}
+
+
+/* --------------------- FOOTER --------------------- */
+/*     ----------------- BANNER -----------------    */
+
+
+footer section.banner {
+    align-items: center;
+    background-color: rgb(242, 95, 58);
+    background-image: url(../img/bg-simplify-section-mobile.svg);
+    background-position: 0px 100px;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 30px;
+}
+footer section.banner h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+footer section.banner a.get-started {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 10px 10px rgba(117, 116, 116, 0.5);
+    color: rgb(242, 95, 58);
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+/* ---------------------FOOTER--------------------- */
+/*     ----------------- END -----------------    */
+
+
+footer section.footer {
+    align-items: center;
+    background-color: rgb(29, 30, 37);
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+}
+footer section.footer  form input[type = "email"] {
+    border-radius: 30px;
+    border: none;
+    height: 5vh;
+    max-height: 50px;
+    max-width: 300px;
+    padding: 20px;
+    width: 70vw;
+}
+footer section.footer  form input[type = "submit"] {
+    background-color: rgb(242, 95, 58);
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 12px 25px 12px 25px;
+}
+footer section.footer nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 480px;
+    padding: 40px;
+    width: 90vw;
+}
+footer section.footer nav div ul {
+    list-style: none;
+    text-align: left;
+}
+footer section.footer nav div ul li {
+    margin-bottom: 10px;
+}
+footer section.footer nav div ul li a {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+footer section.footer article.logos {
+    max-width: 480px;
+    width: 90vw;
+}
+footer section.footer article.logos div.socials img {
+    margin: 0px 20px 30px 10px;
+    max-width: 25px;
+    width: 10vw;
+}
+footer section.footer article.logos div.logo-main img {
+    margin-bottom: 50px;
+    max-width: 200px;
+    width: 50vw;
+}
+footer section.footer p {
+    color: rgba(255, 255, 255, 0.3);
+    justify-self: flex-end;
+}
+
+@media (min-width: 1200px){
+
+    /* --------------------- GENERAL ---------------------*/
+    
+        .non-desktop {
+            display: none;
+        }
+        .non-mobile {
+            display: inline-block;
+        }
+        div.container {
+            background-position: 55vw -200px;
+            background-size: 1000px;
+            max-width: 1920px;
+            min-width: 750px;
+            text-align: unset;
+            width: 100vw;
+        }
+        .hover:hover {
+            opacity: 0.5;
+            transition: 0.25s;
+        }
+    
+    /* --------------------- HEADER --------------------- */
+    
+        header{
+            align-items: center;
+            justify-content: space-between;
+            padding: 100px;
+        }
+        header nav ul {
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+            max-width: 700px;
+            min-width: 400px;
+            width: 50vw;
+        }
+        header nav ul li a {
+            color: rgb(35, 44, 81);
+            text-decoration: none;
+        }
+        header a.get-started {
+            background-color: rgb(242, 95, 58);
+            border-radius: 30px;
+            box-shadow: 0px 10px 10px rgba(242, 95, 58, 0.5);
+            color: white;
+            font-weight: 400;
+            max-height: 60px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding: 20px;
+            text-decoration: none;
+        }
+    
+        
+    /* --------------------- MAIN --------------------- */
+    /*     --------------- SECTION 1 ---------------   */
+    
+    
+        main section.preview {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            padding: 100px;
+        }
+        main section.preview article {
+            background-image: none;
+            max-width: 900px;
+            width: 35vw;
+        }
+        main section.preview article.description {
+            text-align: left;
+        }
+        main section.preview article.description h2 {
+            font-size: 3rem;
+        }
+        main section.preview article.graphics {
+            order: 1;
+        }
+    
+        
+    /* --------------------- MAIN --------------------- */
+    /*     --------------- SECTION 2 ---------------   */
+    
+    
+        main section.difference {
+            background-image: url(../img/bg-tablet-pattern.svg);
+            background-position: -600px 500px;
+            background-repeat: no-repeat;
+            background-size: 1000px;
+            display: flex;
+            flex-wrap: nowrap;
+            height: 1000px;
+            justify-content: space-around;
+            padding: 100px;
+    
+        }
+        main section.difference article {
+            width: 40vw;
+            max-width: 900px;
+        }
+        main section.difference article h3 {
+            font-size: 2.5rem;
+        }
+        main section.difference article ul li p.list-title {
+            background-color: white;
+        }
+    
+    
+    /* --------------------- MAIN --------------------- */
+    /*     --------------- SECTION 3 ---------------   */
+    
+    
+        main section.comments {
+            background-image: url(../img/bg-tablet-pattern.svg);
+            background-position: -600px -500px;
+            background-repeat: no-repeat;
+            background-size: 1000px;
+            text-align: center;
+        }
+        main section.comments h3 {
+            font-size: 2.5rem;
+        }
+        main section.comments div {
+            background-image: none;
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 30px;
+        }
+        main section.comments div article {
+            max-width: 600px;
+            width: 30vw;
+        }
+        main a.get-started, footer section.banner a.get-started, header a.get-started {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    
+    
+    /* --------------------- FOOTER --------------------- */
+    /*     ----------------- BANNER -----------------    */
+    
+    
+        footer section.banner {
+            background-image: url(../img/bg-simplify-section-desktop.svg);
+            background-position: 200px -70px;
+            background-repeat: no-repeat;
+            background-size: 1500px;
+            flex-direction: row;
+            height: 300px;
+            justify-content: space-between;
+            padding: 100px;
+        }
+        footer section.banner h2 {
+            max-width: 900px;
+            width: 40vw;
+        }
+    
+    
+    /* ---------------------FOOTER--------------------- */
+    /*     ----------------- END -----------------    */
+    
+    
+        footer section.footer {
+            align-items: center;
+            flex-direction: row-reverse;
+            height: 300px;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        footer section.footer article.logos {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 200px;
+            justify-content: space-between;
+            width: 300px;
+        }
+        footer section.footer article.logos div.socials {
+            order: 1;
+        }
+        footer section.footer p {
+            position: absolute;
+            top: 3250px;
+        }
+        footer section.footer a.hover:hover {
+            color: rgb(242, 95, 58);
+        }
+}
