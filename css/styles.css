@@ -242,7 +242,7 @@ footer section.footer  form input[type = "submit"] {
     border-radius: 30px;
     border: none;
     color: white;
-    padding: 12px 25px 12px 25px;
+    padding: 15px 25px;
 }
 footer section.footer nav {
     display: flex;
